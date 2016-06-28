@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-webhooks-sampleapp",
+  "version": "1.0.0",
+  "description": "Sample implementation of a webhooks endpoint",
+  "author": "Diana De Rose",
+  "license": "Intuit",
+  "dependencies": {
+    "async": "^2.0.0-rc.6",
+    "body-parser": "^1.15.2",
+    "crypto": "0.0.3",
+    "express": "^4.14.0",
+    "moment": "^2.13.0",
+    "nedb": "^1.8.0",
+    "node-quickbooks": "^2.0.8"
+  }
+}
