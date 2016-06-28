@@ -53,10 +53,10 @@ Once the sample app code is on your computer, you can do the following steps to 
 
 ## Project Structure
 
-1. Endpoint implementation and processing logic is in [`routes.js`](routes.routes.js)
-2. Queue implementation and processing logic is in [`queue.js`](queue.queue.js)
-3. Database handling and processing logic is in [`db.js`](db.db.js)
-4. Utility functions such as validating payload logic is in [`util.js`](util.util.js)
+1. Endpoint implementation and processing logic is in [`routes.js`](routes/routes.js)
+2. Queue implementation and processing logic is in [`queue.js`](queue/queue.js)
+3. Database handling and processing logic is in [`db.js`](db/db.js)
+4. Utility functions such as validating payload logic is in [`util.js`](util/util.js)
 5. Constants and properties are declaired in [`conf.js`](conf.js)
 6. Package dependencies are defined in package.json and extracted in [`node_modules`](node_modules) directory 
 
