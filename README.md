@@ -49,7 +49,7 @@ Once the sample app code is on your computer, you can do the following steps to 
 2. Run the command:`npm install` to load all dependencies from package.json </li>
 3. Run the command:`node app.js`</li>
 4. Wait until the terminal output displays the "Listening on port 8080..." message.
-5. The webhooks endpoint in the sample app is http://localhost:8080/webhooks. 
+5. The webhooks endpoint in the sample app is https://localhost:8080/webhooks. 
 6. To run the code on a different port, update config.port property in conf.js
 
 ## Configuring the endpoint
@@ -59,9 +59,9 @@ Webhooks requires your enpoint to be exposed over the internet. The easiest way 
 1. Download and install ngrok
 2. Expose your localhost by running "./ngrok http 8080" on the command line. 
 3. You will then get a forwarding url that looks something like this:
-	Forwarding     http://cb063e9f.ngrok.io -> localhost:8080  
+	Forwarding     https://cb063e9f.ngrok.io -> localhost:8080  
 
-This will expose localhost:8080 to the Internet. Your endpoint url will now be http://cb063e9f.ngrok.io/webhooks
+This will expose localhost:8080 to the Internet. Your endpoint url will now be https://cb063e9f.ngrok.io/webhooks
 Copy this url and use it for setting up webhooks on developer.intuit.com for your app. 
 
 ## Project Structure
