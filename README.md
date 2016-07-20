@@ -49,7 +49,7 @@ Once the sample app code is on your computer, you can do the following steps to 
 2. Run the command:`npm install` to load all dependencies from package.json </li>
 3. Run the command:`node app.js`</li>
 4. Wait until the terminal output displays the "Listening on port 8080..." message.
-5. The webhooks endpoint in the sample app is https://localhost:8080/webhooks. 
+5. The webhooks endpoint in the sample app is http://localhost:8080/webhooks. 
 6. To run the code on a different port, update config.port property in conf.js
 
 ## Configuring the endpoint
