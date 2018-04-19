@@ -1,3 +1,5 @@
+[![Sample Banner](views/Sample.png)][ss1]
+
 # SampleApp-Webhooks-nodejs
 
 <p>Welcome to the Intuit Developer's Webhooks Node.js Sample App.</p>
@@ -77,4 +79,6 @@ Copy this url and use it for setting up webhooks on developer.intuit.com for you
 ## Reset the App
 
 This app uses non-persistant in-memory nedb database. The database is loaded during startup with realmId and oauth tokens. The database is read and updated when webhooks notification is processed. Stopping the server will delete the records.
+
+[ss1]: https://help.developer.intuit.com/s/samplefeedback?cid=9010&repoName=SampleApp-Webhooks-nodejs
 
