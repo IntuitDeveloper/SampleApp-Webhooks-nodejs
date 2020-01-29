@@ -1,6 +1,8 @@
-[![Sample Banner](views/Sample.png)][ss1]
+[![Sample Banner](views/Callout.png)][ss1]
 
 # SampleApp-Webhooks-nodejs
+
+## Note : This sample uses OAuth1.0
 
 <p>Welcome to the Intuit Developer's Webhooks Node.js Sample App.</p>
 <p>This sample app is meant to provide working examples of how to integrate your app with the Intuit Small Business ecosystem.  Specifically, this sample application demonstrates the following:</p>
